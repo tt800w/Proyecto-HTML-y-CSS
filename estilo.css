@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +27,89 @@ body {
     text-transform: uppercase;
     display: flex;
     align-items: center;
+=======
+@font-face {
+    font-family: "gulfs-display";
+    src: url(tipografia/GulfsDisplay-Normal.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "anybody";
+    src: url(tipografia/Anybody-Black.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.pagsup{
+    background-color: #ff91ffed;
+    width: 600px;
+    height: 100px;
+}
+.paginf{
+    background-color: yellow;
+    width: 700px;
+    height: 150px;
+}
+.inicio{
+    color: rgb(64, 64, 255);
+    font-family: "gulfs-display";
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 0.9;
+
+}
+
+#fotoinicio{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 0;
+}
+.menu{
+    height: 15px;
+    padding: 5px;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 64px;
+    position: relative;
+    font-family: "gulfs-display";
+}
+
+.nav-links{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.nav-links > li{
+    margin-left: 24px;
+}
+
+.nav-links > a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 8px 24px;
+    border-radius: 38px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #e91e65;
+>>>>>>> 5e43edb046f434e1301a0024f2889357b1e43bfa
 }
 
 .menu-icon {
@@ -36,8 +120,33 @@ body {
 /* Estilos del hero */
 .hero-section {
     position: relative;
+<<<<<<< HEAD
     height: 100vh;
     background: linear-gradient(to bottom, #FFB6C1 50%, #FFEB3B 50%);
+=======
+    z-index: 1;
+}
+
+.menu-icon .line {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+#menu-toggle{
+    display: none;
+}
+
+@media(max-width: 768px){
+    .navbar{
+        padding: 20px;
+    }
+    /* width: 30px;
+    height: 30px;
+    border-radius: 50%;
+>>>>>>> 5e43edb046f434e1301a0024f2889357b1e43bfa
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -355,6 +464,12 @@ body {
 @media (max-width: 768px) {
     .about-container {
         flex-direction: column;
+<<<<<<< HEAD
+=======
+        text-align: center;
+        transition: heigth 0.5s ease;
+        background-color: palevioletred;
+>>>>>>> 5e43edb046f434e1301a0024f2889357b1e43bfa
     }
 
     .photos-stack, .about-content {
